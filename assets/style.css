@@ -20,7 +20,7 @@
   }
 
   body{
-      background-image: url("/assets/program.jpg");
+      background-image: url("program.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
