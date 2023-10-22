@@ -103,40 +103,87 @@
             </div>
         </div>
     </div>
+    <!-- FAQ -->
+    <div class="container pt-4" style="padding:50px 0px;">
+        <h1 class="text-center" style="padding-bottom:20px;">FAQ</h1>
+        <ul>
+            <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>What services do you offer?</h2>
+                <p>I specialize in web development using HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, and MySQL. With
+                    a focus on responsive design and the use of SASS, I create visually appealing and highly functional
+                    websites and web applications.</p>
+            </li>
+            <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>How can I get in touch with you?</h2>
+                <p>
+                    You can reach me at any time by phone at +92 302 0678584 or via email at
+                    abdulrehmanbilal25@gmail.com. I'm always available to discuss your projects, answer your questions,
+                    and explore how we can work together to achieve your goals.</p>
+            </li>
+            <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>Can you share your pricing or rate structure?</h2>
+                <p>My standard rate is $10 per hour for my services. I'm open to discussing pricing adjustments based on
+                    the specific requirements and scope of your project. Feel free to reach out, and we can engage in a
+                    professional dialogue to arrive at a pricing structure that best suits your project needs.</p>
+            </li>
+            <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>What is your turnaround time for projects?</h2>
+                <p>
+                    My project turnaround time typically varies from 7 to 10 days, striking a balance between efficiency
+                    and quality. I maintain a swift response time, typically responding to inquiries within 1 to 3
+                    hours. These practices reflect my commitment to delivering timely and efficient services.</p>
+            </li>
+        </ul>
+    </div>
+
+
+
     <!-- Projects -->
-    <div class="container text-center pt-4 mt-4" style="padding-bottom:50px;">
-        <p class="h1 pt-3" style="padding-bottom:40px;"><a id="projects">PROJECTS</a></p>
-        <div class="row">
-            <div class="col-md-4">
-                <p class="h6">FASHION HOUSE</p>
-                <hr style="color:white;">
-                <p>Fashion House project is a stylish and responsive website that seamlessly blends HTML, CSS,
-                    Bootstrap, and a touch of JavaScript to showcase the latest trends, enhancing the online shopping
-                    experience for fashion enthusiasts.</p>
-                <button class="btn btn-outline-light">Read More!</button>
-            </div>
-            <div class="col-md-4">
-                <p class="h6">The Educators</p>
-                <hr style="color:white;">
-                <p>The Educators' forthcoming website promises to be a cutting-edge platform, combining HTML, CSS,
-                    Bootstrap, and strategic JavaScript integration, designed to enhance educational engagement,
-                    accessibility, and information sharing for students, parents, and educators</p>
-                <button class="btn btn-outline-light disabled">Coming Soon!</button>
-            </div>
-            <div class="col-md-4">
-                <p class="h6">Fresh Cart</p>
-                <hr style="color:white;">
-                <p style="padding-bottom:20px;">Fresh Cart website is a user-friendly and visually appealing online
-                    grocery store, meticulously
-                    crafted with HTML, CSS, Bootstrap, and a sprinkle of JavaScript to simplify shopping and elevate the
-                    freshness of your cart.</p>
-                <button class="btn btn-outline-light">Read More!</button>
+    <div class="container-fluid bg-dark">
+        <div class="container text-center pt-4 mt-4" style="padding-bottom:50px;">
+            <p class="h1 pt-3" style="padding-bottom:40px;"><a id="projects">PROJECTS</a></p>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="h6">FASHION HOUSE</p>
+                    <hr style="color:white;">
+                    <p>Fashion House project is a stylish and responsive website that seamlessly blends HTML, CSS,
+                        Bootstrap, and a touch of JavaScript to showcase the latest trends, enhancing the online
+                        shopping
+                        experience for fashion enthusiasts.</p>
+                    <button class="btn btn-outline-light">Read More!</button>
+                </div>
+                <div class="col-md-4">
+                    <p class="h6">The Educators</p>
+                    <hr style="color:white;">
+                    <p>The Educators' forthcoming website promises to be a cutting-edge platform, combining HTML, CSS,
+                        Bootstrap, and strategic JavaScript integration, designed to enhance educational engagement,
+                        accessibility, and information sharing for students, parents, and educators</p>
+                    <button class="btn btn-outline-light disabled">Coming Soon!</button>
+                </div>
+                <div class="col-md-4">
+                    <p class="h6">Fresh Cart</p>
+                    <hr style="color:white;">
+                    <p style="padding-bottom:20px;">Fresh Cart website is a user-friendly and visually appealing online
+                        grocery store, meticulously
+                        crafted with HTML, CSS, Bootstrap, and a sprinkle of JavaScript to simplify shopping and elevate
+                        the
+                        freshness of your cart.</p>
+                    <button class="btn btn-outline-light">Read More!</button>
+                </div>
             </div>
         </div>
     </div>
     <!-- Contact Us -->
     <!--Section: Contact v.2-->
-    <div class="container-fluid bg-dark mt-4" style="padding-bottom:40px;margin-top:50px !important;">
+    <div class="container-fluid mt-4" style="padding-bottom:40px;margin-top:50px !important;">
         <section class="mb-4 container pt-4 mt-4">
 
             <!--Section heading-->
@@ -174,6 +221,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+    <script>var acc = document.getElementsByClassName("accordion");
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
